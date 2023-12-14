@@ -12,6 +12,17 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
+    // Desactivar reglas de react
+    'react/jsx-uses-vars': 'off',
+    'react/jsx-uses-react': 'off',
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
+    
+    // Desactivar algunas reglas de eslint recomendadas
+    'no-unused-vars': 'off',
+    'semi': 'off',
+    
+    // Otros ajustes
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
