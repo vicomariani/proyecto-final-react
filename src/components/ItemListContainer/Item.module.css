@@ -1,0 +1,27 @@
+.inicio {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        justify-content: space-around;
+}
+
+.producto {
+    border: none;
+    width: 18rem;
+    margin:30px 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.737); 
+}
+.titulo {
+    font-size: 30px;
+    color: rgb(6, 157, 212);
+    text-align: center;
+}
+.descripcion {
+    font-size: 15px;
+    text-align: center;
+}
+.precio {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}

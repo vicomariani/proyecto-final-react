@@ -1,0 +1,19 @@
+.botones {
+    background-color: rgb(89, 206, 253);
+    border: 1px solid white;
+    margin: 0px 10px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+.input {
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(105, 215, 255), rgb(255, 255, 255)); 
+    border: 1px solid white;
+    height: 36px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.737); 
+}

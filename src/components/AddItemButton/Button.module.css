@@ -1,0 +1,11 @@
+.agregar {
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    background-color: rgb(89, 206, 253);
+    border: 1px solid white;
+    margin:  10px;
+    font-weight: bold;
+    width: 380px;
+    
+}
